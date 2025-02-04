@@ -1,0 +1,14 @@
+<main>
+  <section class="emotion-component">
+    <div class="emotion-text">
+      Eu não vou dar conta de fazer as coisas
+    </div>
+    <button mat-mini-fab color="primary" (click)="increase()" class="emotion-button">
+      {{ count }}
+    </button>
+  </section>
+  <button mat-fab color="accent" class="fab">
+    <mat-icon>add</mat-icon>
+  </button>
+  <router-outlet></router-outlet>
+</main>

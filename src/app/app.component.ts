@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-test';
+  count = 0;
+
+  increase() {
+    this.count++;
+  }
+
+  decrease() {
+    if (this.count > 0) {
+      this.count--;
+    }
+  }
 }
