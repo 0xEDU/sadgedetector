@@ -7,10 +7,17 @@ main {
     background-color: #303446;
 }
 
-.flex {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.navbar {
+    background-color: #1e2030;
+    color: #cad3f5;
+    margin-bottom: 16px;
+}
+
+.fab {
+    right: 20px;
+    bottom: 20px;
+    position: fixed !important;
+    background-color: #c6a0f6;
 }
 
 .emotion-component {
@@ -36,11 +43,4 @@ main {
     align-content: center;
     justify-content: center;
     background-color: #5b6078;
-}
-
-.fab {
-    right: 20px;
-    bottom: 20px;
-    position: fixed !important;
-    background-color: #c6a0f6;
 }
