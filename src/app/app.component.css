@@ -17,7 +17,8 @@ main {
     right: 20px;
     bottom: 20px;
     position: fixed !important;
-    background-color: #c6a0f6;
+    background-color: #8aadf4;
+    color: black;
 }
 
 .emotion-component {
